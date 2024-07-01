@@ -1,0 +1,30 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STUDENT APP"
+        android:textSize="90px"
+        android:gravity="center_horizontal"
+        android:layout_margin="90px"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addstud"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="90px"
+        android:text="ADD STUDENTS" />
+
+    <androidx.appcompat.widget.AppCompatButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="VIEW STUDENTS"
+    android:id="@+id/viewstud"/>
+
+
+
+</LinearLayout>
